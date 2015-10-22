@@ -4,7 +4,9 @@ import java.util.Arrays;
 public class Lab2V2 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		
 		RandomNumber rand = new RandomNumber();
+		
 		int i = 0;
 		int size = 10;
 		int[] EvenGuesses = new int[size];
@@ -15,7 +17,7 @@ public class Lab2V2 {
 		int[] Round = new int[size];
 		String response = null;
 		while (i < 10) {
-			// Implementing Class1
+			// Implementing Class
 			int Numbers = rand.GetANumber_Between_1_and_10();
 			ComputerNumb[i] = Numbers;
 			System.out.println("Guess if the dice will be even or odd. Use 1 for odd and 2 for even.");
