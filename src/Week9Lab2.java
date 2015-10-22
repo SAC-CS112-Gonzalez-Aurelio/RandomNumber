@@ -36,7 +36,6 @@ public class Week9Lab2 {
 			CountOddGuesses++ ;
 		else if (PlayerGuess.toLowerCase().equals("even"))
 			CountEvenGuesses++;
-		}
 		System.out.println("the number the computer rolled was:" + Dice);
 		Comp = Dice % 2;
 		if (Dice == 0)
